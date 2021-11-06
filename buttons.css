@@ -1,0 +1,99 @@
+.btn{
+    font-family: sans-serif;
+	font-weight: 500;
+	font-size: 25px;
+  	letter-spacing: 1px;
+  	display: block;
+  	padding: 8px 28px;
+  	border-radius: 6px;
+  	height: 40%;
+  	transition: 0.3s;
+  	margin-top: 30px;
+    border: 2px solid #000;
+}
+.btn-pointed{
+    cursor: pointer;
+}
+.btn-danger{
+    border: 2px solid #6b0200;
+    background-color: #ff5e00;
+}
+.btn-info{
+    background-color: #0294b5;
+}
+.btn-warning{
+    background-color: #948f01;
+}
+.btn-rainbow{
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f5);
+}
+.btn-success{
+    background-color: #00b300;
+}
+.btn-disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.btn-rect-to-round-blue{
+    border-radius: 0px;
+    transition: 1.3s;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid #02b3e4;
+}
+.btn-rect-to-round-blue:hover{
+    border-radius: 50px;
+    background: #02b3e4;
+    border: 2px solid #000;
+}
+.btn-rect-to-round-orange{
+    border-radius: 0px;
+    transition: 1.3s;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid #ff7b00;
+}
+.btn-rect-to-round-orange:hover{
+    border-radius: 50px;
+    background: #ff7b00;
+    border: 2px solid #000;
+}
+.btn-rect-to-round-pink{
+    border-radius: 0px;
+    transition: 1.3s;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid #ff00bf;
+}
+.btn-rect-to-round-pink:hover{
+    border-radius: 50px;
+    background: #ff00bf;
+    border: 2px solid #000;
+}
+.btn-rect-to-round-red{
+    border-radius: 0px;
+    transition: 1.3s;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid #f00;
+}
+.btn-rect-to-round-red:hover{
+    border-radius: 50px;
+    background: #f00;
+    border: 2px solid #000;
+}
+.btn-rect-to-round-yellow{
+    border-radius: 0px;
+    transition: 1.3s;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid #ffeb3b;
+}
+.btn-rect-to-round-yellow:hover{
+    border-radius: 50px;
+    background: #ffeb3b;
+    border: 2px solid #000;
+}
+.btn:hover{
+    border: 3px solid #000;
+}
