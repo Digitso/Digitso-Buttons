@@ -1,7 +1,7 @@
 .btn{
     font-family: sans-serif;
-	font-weight: 500;
-	font-size: 25px;
+    font-weight: 500;
+font-size: 25px;
   	letter-spacing: 1px;
   	display: block;
   	padding: 8px 28px;
@@ -9,7 +9,7 @@
   	height: 40%;
   	transition: 0.3s;
   	margin-top: 30px;
-    border: 2px solid #000;
+    	border: 3px solid transparent;
 }
 .btn-pointed{
     cursor: pointer;
